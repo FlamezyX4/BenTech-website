@@ -119,35 +119,35 @@ nav a {
 
 @media (max-width: 600px) {
     .benos-title {
-      font-size: 50px;
-      flex-direction: column;
-      align-items: center;
-      gap: 4px;
+        font-size: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
     }
-  
-    .ben, .tech {
-      display: block;
-      animation-duration: 1.2s;
-      animation-timing-function: ease-in-out;
-    }
-  
-    .ben {
-      animation-name: colorShift;
-    }
-  
+
+    .ben,
     .tech {
-      animation-name: scaleUp;
-      animation-delay: 0.3s;
+        display: block;
+        animation-duration: 1.2s;
+        animation-timing-function: ease-in-out;
     }
-  
+
+    .ben {
+        animation-name: colorShift;
+    }
+
+    .tech {
+        animation-name: scaleUp;
+        animation-delay: 0.3s;
+    }
+
     nav a {
-      font-size: 16px;
-      margin: 8px auto;
-      text-align: center;
+        font-size: 16px;
+        margin: 8px auto;
+        text-align: center;
     }
-  
+
     * {
-      margin-bottom: 1rem;
+        margin-bottom: 1rem;
     }
-  }
-  
+}
